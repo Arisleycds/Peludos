@@ -40,3 +40,14 @@
     color: white;
     font-size: 350%;
 }
+
+footer {
+    width: 100%;
+
+    padding-top: 15px;
+
+    color: white;
+    font-size: 100%;
+
+    background-color: rgb(51, 51, 51);
+}

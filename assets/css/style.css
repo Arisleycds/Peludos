@@ -18,3 +18,7 @@
 
     flex-direction: column;
 }
+
+.conteudo:last-child {
+    scroll-snap-align: end;
+}
