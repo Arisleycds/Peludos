@@ -1,0 +1,42 @@
+.conteudo:nth-child(1) {
+    background-image: url('https://www.petz.com.br/blog/wp-content/uploads/2018/08/bola-de-pelo-em-gatos-1280x720.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.conteudo:nth-child(1)::after {
+    content: "Nossos Peludos";
+
+    color: white;
+    font-size: 700%;
+
+    animation: cntAnim normal 1s ;
+    transition: 2s;
+}
+@keyframes cntAnim {
+    from {
+        font-size: 0%;
+    }
+    to {
+        font-size: 700%;
+    }
+}
+
+.conteudo:nth-child(2)::after {
+    content: "Pena que muitos não tenham casa...";
+    text-align: center;
+
+    color: white;
+    font-size: 550%;
+}
+
+.conteudo:nth-child(3) {
+    justify-content: space-between;
+}
+.conteudo:nth-child(3)::before {
+    content: "Venha os ajudar";
+
+    margin: 50px auto;
+
+    color: white;
+    font-size: 350%;
+}
